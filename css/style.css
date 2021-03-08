@@ -150,3 +150,29 @@ h4 {
 .image-container img {
   width: 100%;
 }
+
+/* Footer section */
+
+footer {
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.design-by a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.design-by p {
+  color: gray;
+  margin-bottom: 24px;
+}
