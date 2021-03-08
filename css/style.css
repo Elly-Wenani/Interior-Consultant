@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 * {
   padding: 0%;
@@ -12,6 +13,21 @@
   --white: #fff;
   --font-Crimson: 'Crimson Pro', serif;
   --font-Montserrat: 'Montserrat', sans-serif;
+  --font-Lora: 'Lora', serif;
+}
+
+/* Code for material icons */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
 }
 
 body {
@@ -69,4 +85,68 @@ body {
   border-bottom: 2px solid #fff;
   padding-bottom: 8px;
   padding-left: 1px;
+}
+
+/* Main section */
+
+.main-container {
+  width: 100%;
+  display: flex;
+  margin-top: 153px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.text-container {
+  width: 30%;
+  margin-left: 8%;
+  margin-right: 132px;
+}
+
+.text-container h2 {
+  margin-bottom: 40px;
+  font-family: var(--font-Lora);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+  white-space: nowrap;
+}
+
+.text-container p {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 48px;
+}
+
+.text-container h4 {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text-container .arrow {
+  margin-left: 14px;
+}
+
+.image-container {
+  width: 70%;
+  margin-right: 8%;
+}
+
+.text-container h2,
+p,
+h4 {
+  color: var(--white);
+}
+
+.image-container img {
+  width: 100%;
 }
