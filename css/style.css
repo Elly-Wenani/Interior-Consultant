@@ -48,14 +48,14 @@ body {
 }
 
 .left-container {
-  margin-left: 8%;
+  margin-left: 5%;
   width: 40%;
 }
 
 .right-container {
   width: 60%;
   display: flex;
-  margin-right: 8%;
+  margin-right: 5%;
 }
 
 .logo-head {
@@ -93,14 +93,13 @@ body {
   width: 100%;
   display: flex;
   margin-top: 153px;
-  margin-bottom: 100px;
   align-items: center;
 }
 
 .text-container {
   width: 30%;
-  margin-left: 8%;
-  margin-right: 132px;
+  margin-left: 5%;
+  margin-right: 100px;
 }
 
 .text-container h2 {
@@ -138,7 +137,7 @@ body {
 
 .image-container {
   width: 70%;
-  margin-right: 8%;
+  margin-right: 5%;
 }
 
 .text-container h2,
@@ -149,6 +148,73 @@ h4 {
 
 .image-container img {
   width: 100%;
+}
+
+/* Profile container */
+
+.profile-details-container {
+  color: var(--white);
+  background-color: var(--background);
+  height: 230px;
+  width: 410px;
+  margin: -100px 0 50px 0;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.left-profile-container {
+  width: 60%;
+}
+
+.right-profile-container {
+  width: 40%;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  margin: 20px 0 0 30px;
+}
+
+.profile-text-details {
+  margin: 20px 0 0 30px;
+  align-items: center;
+}
+
+.profile-text-details h2 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.profile-text-details h3 {
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+.design-by h2 {
+  margin: 30px 150px 0 26px;
+  font-family: var(--font-Lora);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
 }
 
 /* Footer section */
