@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #181719;
+  --white: #fff;
+  --font-Crimson: 'Crimson Pro', serif;
+  --font-Montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* Navigation bar */
+.navbar {
+  width: 100%;
+  margin-top: 42px;
+  display: flex;
+}
+
+.left-container .logo-head,
+.right-container a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.left-container {
+  margin-left: 8%;
+  width: 40%;
+}
+
+.right-container {
+  width: 60%;
+  display: flex;
+  margin-right: 8%;
+}
+
+.logo-head {
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  width: 108px;
+  font-family: var(--font-Crimson);
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.right-container a {
+  padding-left: 15%;
+  font-family: var(--font-Montserrat);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.right-container .active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+  padding-left: 1px;
+}
