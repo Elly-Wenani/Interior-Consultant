@@ -19,15 +19,19 @@
 /* Code for material icons */
 .material-icons.md-18 {
   font-size: 18px;
+  color: var(--white);
 }
 .material-icons.md-24 {
   font-size: 24px;
+  color: var(--white);
 }
 .material-icons.md-36 {
   font-size: 36px;
+  color: var(--white);
 }
 .material-icons.md-48 {
   font-size: 48px;
+  color: var(--white);
 }
 
 body {
@@ -42,6 +46,10 @@ body {
 }
 
 .menu-icon {
+  display: none;
+}
+
+.clear-icon {
   display: none;
 }
 
@@ -111,6 +119,19 @@ body {
     width: 2%;
     display: flex;
     margin-right: 5%;
+  }
+
+  /* Display and hide icons on hover */
+  .menu-icon p {
+    display: none;
+  }
+
+  .menu-icon:hover h3 {
+    display: none;
+  }
+
+  .menu-icon:hover p {
+    display: flex;
   }
 }
 

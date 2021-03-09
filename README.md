@@ -32,6 +32,6 @@ This project is build using html and css only.
 
 ## Contact
 
-- Website [myteam-6frw.onrender.com](https://interior-consultant-wenani.netlify.app)
+- Website [interior-consultant-wenani.netlify.app](https://interior-consultant-wenani.netlify.app)
 - GitHub [@elly-wenani](https://github.com/elly-wenani)
 - Twitter [@ellywenani](https://twitter.com/ellywenani)
