@@ -41,6 +41,10 @@ body {
   display: flex;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .left-container .logo-head,
 .right-container a {
   color: var(--white);
@@ -49,11 +53,11 @@ body {
 
 .left-container {
   margin-left: 5%;
-  width: 40%;
+  width: 35%;
 }
 
 .right-container {
-  width: 60%;
+  width: 65%;
   display: flex;
   margin-right: 5%;
 }
@@ -85,6 +89,29 @@ body {
   border-bottom: 2px solid #fff;
   padding-bottom: 8px;
   padding-left: 1px;
+}
+
+/* Media for navbar */
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    margin-top: 25px;
+  }
+
+  .left-container {
+    margin-left: 5%;
+    width: 86%;
+  }
+
+  .right-container {
+    display: none;
+  }
+
+  .menu-icon {
+    width: 2%;
+    display: flex;
+    margin-right: 5%;
+  }
 }
 
 /* Main section */
@@ -150,16 +177,66 @@ h4 {
   width: 100%;
 }
 
+/* Media for main section */
+@media screen and (max-width: 800px) {
+  .main-container {
+    width: 100%;
+    display: block;
+    margin-top: 38px;
+  }
+
+  .text-container {
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 100px;
+  }
+
+  .text-container h2 {
+    margin-bottom: 25px;
+    font-family: var(--font-Lora);
+    font-style: normal;
+    font-size: 36px;
+    white-space: nowrap;
+    line-height: 46px;
+  }
+
+  .text-container p {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 100px;
+  }
+
+  .text-container h4 {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .image-container {
+    width: 92%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+}
+
 /* Profile container */
 
 .profile-details-container {
   color: var(--white);
   background-color: var(--background);
-  height: 230px;
-  width: 410px;
+  width: 80%;
   margin: -100px 0 50px 0;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px,
-    rgba(0, 0, 0, 0.32) 0px 2px 16px 0px;
+  box-shadow: 0 0 10px #000000;
+  padding-bottom: 30px;
 }
 
 .profile-container {
@@ -187,7 +264,7 @@ h4 {
 }
 
 .profile-text-details {
-  margin: 20px 0 0 30px;
+  margin: 20px 10px 0 30px;
   align-items: center;
 }
 
@@ -209,12 +286,59 @@ h4 {
 }
 
 .design-by h2 {
-  margin: 30px 150px 0 26px;
+  margin: 30px 50px 0 30px;
   font-family: var(--font-Lora);
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
+}
+
+/* Media for profile container */
+
+@media screen and (max-width: 800px) {
+  .profile-details-container {
+    width: 90%;
+    margin: -100px 0 50px 0;
+    padding-bottom: 30px;
+  }
+
+  .left-profile-container {
+    display: none;
+  }
+
+  .right-profile-container {
+    width: 99%;
+    margin: 0 0 0 10%;
+  }
+
+  .image img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    margin: 20px 0 0 30px;
+  }
+
+  .profile-text-details {
+    margin: 20px 10px 0 30px;
+    align-items: center;
+  }
+
+  .profile-text-details h2 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .profile-text-details h3 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .design-by h2 {
+    margin: 20px 90px 0 30px;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 /* Footer section */
@@ -231,14 +355,14 @@ footer {
   line-height: 17px;
 }
 
-.design-by a {
+.created-by a {
   text-decoration: none;
   color: gray;
   font-weight: 900;
   text-decoration: underline;
 }
 
-.design-by p {
+.created-by p {
   color: gray;
   margin-bottom: 24px;
 }
