@@ -21,6 +21,8 @@
 
 ![phone-screenshot](https://user-images.githubusercontent.com/49924816/110450835-9f5c9900-80d4-11eb-84e8-05f46e56d750.png)
 
+![navigation-menu-screenshot](https://user-images.githubusercontent.com/49924816/110629793-a5767680-81b5-11eb-8ce5-1b6125919dff.png)
+
 
 ## About the project
 This site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build Interior Consultant Page by completing the given user stories.
@@ -28,7 +30,7 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 You can view the live demo of the completed project [here](https://interior-consultant-wenani.netlify.app)
 
 ## Built With
-This project is build using html and css only.
+This project is build using html, css and javascript only.
 
 ## Contact
 
