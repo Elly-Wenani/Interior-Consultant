@@ -5,7 +5,6 @@ const mainContent = document.querySelector('.main-container');
 const profileContent = document.querySelector('.profile-container');
 const footerContent = document.querySelector('.created-by');
 
-console.log(headerIcon);
 headerIcon.addEventListener('click', (e) => {
   let nav = document.querySelector('.fas');
   if (nav.classList.contains('fa-bars')) {

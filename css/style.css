@@ -16,24 +16,6 @@
   --font-Lora: 'Lora', serif;
 }
 
-/* Code for material icons */
-.material-icons.md-18 {
-  font-size: 18px;
-  color: var(--white);
-}
-.material-icons.md-24 {
-  font-size: 24px;
-  color: var(--white);
-}
-.material-icons.md-36 {
-  font-size: 36px;
-  color: var(--white);
-}
-.material-icons.md-48 {
-  font-size: 48px;
-  color: var(--white);
-}
-
 body {
   background-color: var(--background);
 }
@@ -97,6 +79,7 @@ body {
   .navbar {
     padding-top: 26px;
   }
+
   .logo-head {
     white-space: nowrap;
   }
@@ -125,13 +108,11 @@ body {
     opacity: 1;
     transition: all 0.6s ease;
     z-index: 1;
-
     margin-top: 50px;
   }
 
   .right-container {
     text-align: center;
-    padding: 2rem;
     width: 100%;
     display: table;
   }
@@ -169,7 +150,7 @@ body {
   font-family: var(--font-Lora);
   font-style: normal;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 61px;
   white-space: nowrap;
 }
